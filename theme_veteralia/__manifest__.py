@@ -1,1 +1,21 @@
-{"name": "Theme Veteralia", "description": "Tema ecommerce para clínica veterinaria Veteralia con landing page llamativa.", "version": "18.0.1.0.0", "category": "Theme/Ecommerce", "author": "Veteralia", "depends": ["website", "website_sale"], "data": ["views/assets.xml", "views/templates.xml", "views/pages.xml"], "assets": {"web.assets_frontend": ["theme_veteralia/static/src/scss/theme.scss"]}, "license": "LGPL-3"}
+# -*- coding: utf-8 -*-
+{
+    "name": "Theme Veteralia",
+    "description": "Tema ecommerce para clínica veterinaria Veteralia con landing page llamativa.",
+    "version": "18.0.1.0.0",
+    "category": "Theme/Ecommerce",
+    "author": "Veteralia",
+    "depends": ["website", "website_sale"],
+    "data": [
+        "views/assets.xml",
+        "views/templates.xml",
+        "views/pages.xml",
+    ],
+    "assets": {
+        "web.assets_frontend": [
+            "theme_veteralia/static/src/scss/theme.scss",
+        ],
+    },
+    "license": "LGPL-3",
+    "application": False,
+}
