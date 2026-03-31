@@ -1,0 +1,7 @@
+<odoo>
+  <template id="theme_veteralia_assets_frontend" inherit_id="web.assets_frontend" name="Theme Veteralia assets">
+    <xpath expr="." position="inside">
+      <link rel="stylesheet" type="text/scss" href="/theme_veteralia/static/src/scss/theme.scss"/>
+    </xpath>
+  </template>
+</odoo>
