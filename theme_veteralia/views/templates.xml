@@ -1,0 +1,7 @@
+<odoo>
+  <template id="veteralia_snippets" name="Veteralia Snippets">
+    <t t-name="theme_veteralia.veteralia_badge">
+      <span class="vtr-hero__badge"><i class="fa fa-paw" role="img" aria-label="Paw"/> Atención 24/7</span>
+    </t>
+  </template>
+</odoo>
