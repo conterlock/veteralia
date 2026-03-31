@@ -1,0 +1,193 @@
+<odoo>
+  <template id="veteralia_homepage" name="Veteralia Homepage">
+    <t t-call="website.layout">
+      <t t-set="title">Veteralia | Clínica Veterinaria</t>
+      <div id="wrap" class="oe_structure">
+        <section class="vtr-hero">
+          <div class="container">
+            <div class="row align-items-center gy-4">
+              <div class="col-lg-6">
+                <span class="vtr-hero__badge"><i class="fa fa-paw" role="img" aria-label="Paw"/> Atención 24/7</span>
+                <h1 class="vtr-hero__title">Cuidamos a tu familia peluda con amor, ciencia y tecnología.</h1>
+                <p class="vtr-hero__lead">En Veteralia combinamos medicina veterinaria avanzada con un ecommerce pensado para el bienestar de tus mascotas: farmacia, nutrición premium y planes de salud en un solo lugar.</p>
+                <div class="d-flex flex-wrap gap-3">
+                  <a class="btn btn-primary btn-lg" href="/shop">Comprar ahora</a>
+                  <a class="btn btn-outline-primary btn-lg" href="#agenda">Agendar cita</a>
+                </div>
+                <div class="d-flex flex-wrap gap-2 mt-4">
+                  <span class="vtr-pill"><i class="fa fa-check"/> Laboratorio propio</span>
+                  <span class="vtr-pill"><i class="fa fa-check"/> Urgencias 24/7</span>
+                  <span class="vtr-pill"><i class="fa fa-check"/> Farmacia veterinaria</span>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="vtr-hero__media">
+                  <div class="d-flex justify-content-between align-items-center mb-4">
+                    <img src="/theme_veteralia/static/src/img/logo.png" alt="Veteralia" class="vtr-logo"/>
+                    <span class="vtr-pill"><i class="fa fa-heart"/> 4.9/5 en reseñas</span>
+                  </div>
+                  <img src="https://images.unsplash.com/photo-1508675801608-78f065c57f1f?auto=format&fit=crop&w=900&q=80" alt="Equipo veterinario" class="img-fluid rounded-4"/>
+                  <div class="row g-3 mt-4">
+                    <div class="col-6">
+                      <div class="vtr-stat">
+                        <h3>+12k</h3>
+                        <p class="mb-0">Mascotas atendidas</p>
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="vtr-stat">
+                        <h3>+60</h3>
+                        <p class="mb-0">Especialistas</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="vtr-section">
+          <div class="container">
+            <div class="row align-items-center g-4">
+              <div class="col-lg-5">
+                <h2 class="vtr-section__title">Servicios clínicos y bienestar integral.</h2>
+                <p>Desde medicina preventiva hasta cirugía especializada, te acompañamos en cada etapa con un equipo multidisciplinario y tecnología de última generación.</p>
+                <ul class="list-unstyled vtr-feature-list">
+                  <li><i class="fa fa-check-circle"/> Consultas generales y especializadas</li>
+                  <li><i class="fa fa-check-circle"/> Vacunación, laboratorio y diagnóstico por imagen</li>
+                  <li><i class="fa fa-check-circle"/> Hospitalización y cuidados intensivos</li>
+                </ul>
+              </div>
+              <div class="col-lg-7">
+                <div class="vtr-highlight">
+                  <div class="row g-3">
+                    <div class="col-md-6">
+                      <div class="vtr-card">
+                        <span class="vtr-icon"><i class="fa fa-stethoscope"/></span>
+                        <h5>Medicina preventiva</h5>
+                        <p class="mb-0">Planificamos controles periódicos para mantener a tu mascota sana todo el año.</p>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="vtr-card">
+                        <span class="vtr-icon"><i class="fa fa-flask"/></span>
+                        <h5>Laboratorio y diagnóstico</h5>
+                        <p class="mb-0">Resultados rápidos con pruebas internas y laboratorio aliado certificado.</p>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="vtr-card">
+                        <span class="vtr-icon"><i class="fa fa-syringe"/></span>
+                        <h5>Vacunación al día</h5>
+                        <p class="mb-0">Calendarios personalizados para cada especie y etapa de vida.</p>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="vtr-card">
+                        <span class="vtr-icon"><i class="fa fa-ambulance"/></span>
+                        <h5>Urgencias 24/7</h5>
+                        <p class="mb-0">Guardia permanente y equipo quirúrgico listo para actuar.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="vtr-section bg-white">
+          <div class="container">
+            <div class="row align-items-center g-4">
+              <div class="col-lg-6 order-lg-2">
+                <h2 class="vtr-section__title">Ecommerce veterinario con entrega en 24h.</h2>
+                <p>Compra alimentos premium, suplementos y productos de higiene seleccionados por nuestros especialistas. Recibe recomendaciones personalizadas según la historia clínica de tu mascota.</p>
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <div class="vtr-product-card">
+                      <h6>Nutrición premium</h6>
+                      <p class="mb-0">Dietas prescritas y alimentos hipoalergénicos.</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="vtr-product-card">
+                      <h6>Farmacia veterinaria</h6>
+                      <p class="mb-0">Medicamentos certificados con entrega segura.</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="vtr-product-card">
+                      <h6>Accesorios y grooming</h6>
+                      <p class="mb-0">Camas, correas, juguetes y spa en casa.</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="vtr-product-card">
+                      <h6>Planes de salud</h6>
+                      <p class="mb-0">Membresías con descuentos y recordatorios.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 order-lg-1">
+                <img src="https://images.unsplash.com/photo-1450778869180-41d0601e046e?auto=format&fit=crop&w=900&q=80" alt="Mascotas felices" class="img-fluid rounded-4"/>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="vtr-section">
+          <div class="container">
+            <div class="row g-4">
+              <div class="col-lg-4">
+                <h2 class="vtr-section__title">Historias que nos inspiran.</h2>
+                <p>Familias reales que confían en nuestro equipo y en la tienda Veteralia para cuidar a sus mejores amigos.</p>
+              </div>
+              <div class="col-lg-8">
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <div class="vtr-testimonial">
+                      <p>“La atención fue increíble. Amapola salió recuperada y ahora compramos su dieta especial en la tienda.”</p>
+                      <strong>Valeria P.</strong>
+                      <div class="small text-muted">Mamá de Amapola</div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="vtr-testimonial">
+                      <p>“La farmacia online es rápida y el equipo nos guía con recordatorios de vacunas.”</p>
+                      <strong>Carlos M.</strong>
+                      <div class="small text-muted">Papá de Rocky</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="agenda" class="vtr-section">
+          <div class="container">
+            <div class="vtr-cta">
+              <div class="row align-items-center g-4">
+                <div class="col-lg-7">
+                  <h2 class="mb-3">Agenda una consulta hoy mismo.</h2>
+                  <p class="mb-0">Nuestro equipo está listo para recibirte en clínica o en línea. Reserva tu cita, recibe recordatorios automáticos y compra lo que tu mascota necesita.</p>
+                </div>
+                <div class="col-lg-5 text-lg-end">
+                  <a class="btn btn-light btn-lg" href="/contactus">Solicitar cita</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="vtr-section pt-0">
+          <div class="container text-center">
+            <p class="vtr-footer-note mb-0">© 2026 Veteralia. Clínica veterinaria integral y tienda especializada.</p>
+          </div>
+        </section>
+      </div>
+    </t>
+  </template>
+</odoo>
